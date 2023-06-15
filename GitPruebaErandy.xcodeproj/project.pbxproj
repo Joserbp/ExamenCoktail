@@ -13,6 +13,8 @@
 		EBAF0E492A3A32180031AD32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBAF0E472A3A32180031AD32 /* Main.storyboard */; };
 		EBAF0E4B2A3A321A0031AD32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBAF0E4A2A3A321A0031AD32 /* Assets.xcassets */; };
 		EBAF0E4E2A3A321A0031AD32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBAF0E4C2A3A321A0031AD32 /* LaunchScreen.storyboard */; };
+		EBAF0E5A2A3BD9E40031AD32 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAF0E592A3BD9E40031AD32 /* Drink.swift */; };
+		EBAF0E5C2A3BD9F20031AD32 /* DrinkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAF0E5B2A3BD9F20031AD32 /* DrinkViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		EBAF0E4A2A3A321A0031AD32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBAF0E4D2A3A321A0031AD32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBAF0E4F2A3A321A0031AD32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBAF0E592A3BD9E40031AD32 /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		EBAF0E5B2A3BD9F20031AD32 /* DrinkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +66,7 @@
 				EBAF0E552A3BD8BB0031AD32 /* Model */,
 				EBAF0E412A3A32180031AD32 /* AppDelegate.swift */,
 				EBAF0E432A3A32180031AD32 /* SceneDelegate.swift */,
-				EBAF0E452A3A32180031AD32 /* ViewController.swift */,
-				EBAF0E472A3A32180031AD32 /* Main.storyboard */,
 				EBAF0E4A2A3A321A0031AD32 /* Assets.xcassets */,
-				EBAF0E4C2A3A321A0031AD32 /* LaunchScreen.storyboard */,
 				EBAF0E4F2A3A321A0031AD32 /* Info.plist */,
 			);
 			path = GitPruebaErandy;
@@ -74,6 +75,7 @@
 		EBAF0E552A3BD8BB0031AD32 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EBAF0E592A3BD9E40031AD32 /* Drink.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -81,6 +83,8 @@
 		EBAF0E562A3BD8BF0031AD32 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EBAF0E472A3A32180031AD32 /* Main.storyboard */,
+				EBAF0E4C2A3A321A0031AD32 /* LaunchScreen.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -88,6 +92,7 @@
 		EBAF0E572A3BD8C30031AD32 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				EBAF0E5B2A3BD9F20031AD32 /* DrinkViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -95,6 +100,7 @@
 		EBAF0E582A3BD8CB0031AD32 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				EBAF0E452A3A32180031AD32 /* ViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -170,8 +176,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBAF0E5C2A3BD9F20031AD32 /* DrinkViewModel.swift in Sources */,
 				EBAF0E462A3A32180031AD32 /* ViewController.swift in Sources */,
 				EBAF0E422A3A32180031AD32 /* AppDelegate.swift in Sources */,
+				EBAF0E5A2A3BD9E40031AD32 /* Drink.swift in Sources */,
 				EBAF0E442A3A32180031AD32 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
