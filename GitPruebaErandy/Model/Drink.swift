@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct Drink {
+    var Nombre : String
+    var Tipo : String
+    var Categoria : String
+}
